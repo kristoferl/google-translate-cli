@@ -1,0 +1,27 @@
+{
+  "name": "google-translate-cli",
+  "version": "0.0.1",
+  "description": "Google translations for the cli.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kristoferl/google-translate-cli.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "google-translate": "./index.js"
+  },
+  "dependencies": {
+    "google-translate": "~1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "translate",
+    "cli"
+  ],
+  "author": "Kristofer Löfgren <kristofer.lofgren@gmail.com>",
+  "license": "MIT"
+}
