@@ -24,6 +24,7 @@ function translate(config) {
   }
   googleTranslateClient.translate(toTranslate, config.from, config.to, (err, translation) => {
     if (err) {
+      console.log(err.body);
       throw err;
     }
     console.log(translation.translatedText);
